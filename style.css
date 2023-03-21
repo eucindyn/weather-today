@@ -28,4 +28,12 @@ section {
   border-radius: 1rem;
 } 
 
+.temperature-now {
+  background: url("./assets/temp-bg.jpg");
+  width: 48rem;
+  height: 48rem;
+  position: relative;
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+}
 
