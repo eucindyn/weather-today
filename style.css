@@ -63,3 +63,19 @@ section {
 .location strong {
   font-size: 1.5rem;
 }
+
+.temp {
+  margin: 6rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: .4rem;
+}
+
+.temp .number {
+  text-align: center;
+  font-size: 8rem;
+}
+
+
