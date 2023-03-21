@@ -22,3 +22,9 @@ main {
   place-content: center;
 }
 
+section {
+  background: #6d67d0;
+  backdrop-filter: blur(1rem);
+  border-radius: 1rem;
+}
+
