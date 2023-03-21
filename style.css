@@ -15,3 +15,10 @@ body {
   font-size: 1.6rem; /*16 px dividido por 10*/
 }
 
+main {
+  background: url("./assets/weather-bg.jpg") no-repeat top center/cover;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
