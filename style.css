@@ -57,5 +57,9 @@ section {
   display: flex;
   align-items: center;
   gap: .4rem;
-  color: #DAD8F7;
+  color: #C2BFF4;
+}
+
+.location strong {
+  font-size: 1.5rem;
 }
