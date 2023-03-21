@@ -22,6 +22,10 @@ main {
   place-content: center;
 }
 
+ul {
+  list-style: none;
+}
+
 section {
   background: #6d67d0;
   backdrop-filter: blur(1rem);
