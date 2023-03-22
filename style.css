@@ -130,3 +130,9 @@ section {
 .info span {
   font-weight: 700;
 }
+
+.air-quality .title {
+  color: #dad8f7;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
