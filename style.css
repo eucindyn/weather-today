@@ -53,7 +53,7 @@ section {
   left: -5.6rem;
 }
 
-.location {
+.current-location {
   justify-self: end;
   padding: 3.2rem 3.2rem 0;
   display: flex;
@@ -62,7 +62,7 @@ section {
   color: #c2bff4;
 }
 
-.location h1 {
+.current-location h1 {
   font-size: 1.5rem;
 }
 
