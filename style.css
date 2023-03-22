@@ -130,11 +130,12 @@ section {
 
 /* AIR QUALITY SECTION */
 
-.air-quality {
+.air-quality-card {
   text-align: center;
+  display: grid;
 }
 
-.air-quality .title {
+.air-quality-card .air-quality-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,18 +145,22 @@ section {
   font-size: 1.6rem;
 }
 
-.air-quality .quality {
+.air-quality-card .air-quality {
   margin-top: 3.2rem;
   font-size: 1.8rem;
-  color: #87EBCD;
+  color: #87ebcd;
 }
 
-.air-quality .number {
+.air-quality-card .air-quality-number {
+  margin-top: 0.4rem;
   font-size: 4rem;
   color: #e7e6fb;
 }
 
-.air-quality .info {
+.air-quality-card .air-quality-info {
+  gap: 0.8rem;
+  margin-bottom: 3.2rem;
+  padding: 1.2rem;
   font-size: 1.2rem;
   font-weight: 400;
   color: #e7e6fb;
