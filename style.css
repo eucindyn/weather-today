@@ -36,8 +36,8 @@ section {
 
 .temperature-now-card {
   background: url("./assets/temp-bg.jpg");
-  width: 48rem;
-  height: 48rem;
+  /* width: 48rem;
+  height: 48rem; */
   position: relative;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
