@@ -81,16 +81,11 @@ section {
   font-size: 8.8rem;
 }
 
-/*
-.minmax {
+.temp .number .minmax {
   font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
 }
 
-.minmax span {
+/* .minmax span {
   color: #C2BFF4;
 }
 .celsius {
