@@ -74,7 +74,7 @@ section {
   gap: 0.4rem;
 }
 
-.temperature-content .number {
+.temperature-content .temp-number {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
@@ -82,15 +82,15 @@ section {
   font-size: 8.8rem;
 }
 
-.temperature-content .number .minmax {
+.temperature-content .temp-minmax {
   font-size: 2rem;
 }
 
-.temperature-content .number .minmax span {
+.temperature-content .temp-minmax span {
   color: #c2bff4;
 }
 
-.temperature-content .celsius {
+.temperature-content .temp-celsius {
   color: #dad8f7;
   font-size: 2.4rem;
   margin-top: 1.5rem;
@@ -113,20 +113,19 @@ section {
   color: #e7e6fb;
 }
 
-.info h2 {
+.stats-info h2 {
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.info p {
+.stats-info p {
   font-size: 1.8rem;
 }
 
-.info span {
+.stats-info span {
   font-size: 1.4rem;
   color: #dad8f7;
 }
-
 
 /* AIR QUALITY SECTION */
 
@@ -154,7 +153,7 @@ section {
 .air-quality-card .air-quality-number {
   margin-top: 0.4rem;
   font-size: 4rem;
-  color: #e7e6fb;
+  color: #fff;
 }
 
 .air-quality-card .air-quality-info {
