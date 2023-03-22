@@ -95,4 +95,35 @@ section {
   margin-top: 1.5rem;
 }
 
+.statistics {
+  display: flex;
+  gap: 0.8rem;
+  padding: 1.2rem;
+}
 
+.stats {
+  flex: 1;
+  padding: 1.2rem 1.6rem;
+  background-color: rgba(102, 96, 200, 0.6);
+  border-radius: .6rem;
+  color: #e7e6fb;
+}
+
+.info h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.info p {
+  font-size: 1.8rem;
+}
+
+.info span {
+  font-size: 1.4rem;
+  color: #dad8f7;
+}
+
+.info p,
+.info span {
+  font-weight: 700;
+}
