@@ -30,7 +30,7 @@ section {
   background: #6d67d0;
   backdrop-filter: blur(1rem);
   border-radius: 1rem;
-} 
+}
 
 .temperature-now {
   background: url("./assets/temp-bg.jpg");
@@ -56,8 +56,8 @@ section {
   padding: 3.2rem 3.2rem 0;
   display: flex;
   align-items: center;
-  gap: .4rem;
-  color: #C2BFF4;
+  gap: 0.4rem;
+  color: #c2bff4;
 }
 
 .location strong {
@@ -70,13 +70,13 @@ section {
   color: #fff;
   display: flex;
   justify-content: center;
-  gap: .4rem;
+  gap: 0.4rem;
 }
 
 .temp .number {
   display: flex;
   flex-direction: column;
-  gap: .4rem;
+  gap: 0.4rem;
   text-align: center;
   font-size: 8.8rem;
 }
@@ -86,25 +86,13 @@ section {
 }
 
 .temp .number .minmax span {
-  color: #C2BFF4;
-} 
+  color: #c2bff4;
+}
 
 .temp .celsius {
-  color: #DAD8F7;
+  color: #dad8f7;
   font-size: 2.4rem;
   margin-top: 1.5rem;
 }
 
 
-
-.info h2 {
-  font-size: 1.2rem;
-}
-
-.info p {
-  font-size: 1.8rem;
-}
-
-.info span {
-  font-size: 1.4rem;
-}
