@@ -13,6 +13,7 @@
 body {
   font-family: Lato, sans-serif;
   font-size: 1.6rem; /*16 px dividido por 10*/
+  font-weight: 700;
 }
 
 main {
@@ -67,7 +68,6 @@ section {
 
 .temp {
   margin: 6rem;
-  font-weight: 700;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -142,5 +142,10 @@ section {
   gap: 0.8rem;
   color: #dad8f7;
   font-size: 1.6rem;
-  font-weight: 700;
+}
+
+.air-quality .quality {
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
+  color: #87EBCD;
 }
