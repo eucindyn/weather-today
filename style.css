@@ -102,10 +102,13 @@ section {
 }
 
 .stats {
+  display: flex;
   flex: 1;
+  align-items: center;
+  gap: 1.2rem;
   padding: 1.2rem 1.6rem;
   background-color: rgba(102, 96, 200, 0.6);
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   color: #e7e6fb;
 }
 
