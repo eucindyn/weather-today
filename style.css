@@ -130,6 +130,10 @@ section {
 
 /* AIR QUALITY SECTION */
 
+.air-quality {
+  text-align: center;
+}
+
 .air-quality .title {
   display: flex;
   align-items: center;
@@ -144,4 +148,15 @@ section {
   margin-top: 3.2rem;
   font-size: 1.8rem;
   color: #87EBCD;
+}
+
+.air-quality .number {
+  font-size: 4rem;
+  color: #e7e6fb;
+}
+
+.air-quality .info {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #e7e6fb;
 }
