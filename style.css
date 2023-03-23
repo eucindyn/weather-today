@@ -176,3 +176,16 @@ section {
   color: #dad8f7;
   font-size: 1.6rem;
 }
+
+.sun-chart-wrapper {
+  margin-top: 4rem;
+  height: 11rem;
+}
+
+.sun-chart {
+  --pos-x: 75;
+  margin: auto;
+  width: 21.6rem;
+  height: 21.6rem;
+  position: relative;
+}
