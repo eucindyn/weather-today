@@ -252,3 +252,33 @@ section {
   padding: 0 1.6rem 1.6rem;
   max-width: 27.6rem;
 }
+
+/* Week Weather */
+
+.week-weather {
+  display: flex;
+  padding: 4rem;
+  gap: 1.2rem;
+}
+
+.week-day {
+  display: grid;
+  flex: 1;
+  justify-items: center;
+  gap: 1.6rem;
+}
+
+.week-weather-title {
+  font-size: 1.4rem;
+  color: #dad8f7;
+}
+
+.week-day .temp-minmax {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.week-day .temp-minmax span {
+  color: #c2bff4;
+}
+
