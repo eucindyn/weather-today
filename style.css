@@ -226,6 +226,13 @@ section {
   -webkit-mask: var(--mask);
   rotate: calc(1.825deg * var(--pos-x));
 }
+
+.chart img {
+  position: absolute;
+  top: 0;
+  left: -1%;
+}
+
 .time-now {
   position: absolute;
   top: 25%;
@@ -233,4 +240,15 @@ section {
   transform: translate(-50%);
   color: #fff;
   font-size: 1.4rem;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1rem auto 0;
+  padding: 0 1.6rem 1.6rem;
+  max-width: 27.6rem;
 }
