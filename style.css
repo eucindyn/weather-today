@@ -226,3 +226,11 @@ section {
   -webkit-mask: var(--mask);
   rotate: calc(1.825deg * var(--pos-x));
 }
+.time-now {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 1.4rem;
+}
