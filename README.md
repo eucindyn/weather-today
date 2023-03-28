@@ -7,7 +7,7 @@
 
 <div align="left">
 
-> DEFINIÇÃO DO APLICATIVO
+> DESCRIÇÃO
 <br>
 Uma página de clima que mostra a previsão do tempo hoje, projeto feito durante o #boraCodar da Rocketseat.
 <br>
